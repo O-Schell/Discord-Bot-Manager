@@ -1,0 +1,13 @@
+body {
+    background-color: #EAEAEA;
+  }
+  h1 {
+    color: #dedede;
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #bdbdbd, 
+                 -20px -20px 60px #ffffff;
+  }
+  p {
+    color: red;
+  }
+

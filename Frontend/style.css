@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css");
+body {
+  background: #2f3136;
+}
+
+.center-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.center-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 3vw;
+  font-family: "Montserrat";
+  color: #8e9297;
+  border-bottom: solid 1.5px #8e9297;
+  -webkit-transition: color 400ms ease-out;
+  transition: color 400ms ease-out;
+}
+
+.title:hover {
+  color: #ffffff00;
+  cursor: pointer;
+}
+
+.undertitle {
+  margin: 20px;
+  font-size: 1vw;
+  font-family: 'Courier New', Courier, monospace;
+  color: #8e9297;
+  -webkit-transition: color 400ms ease-in-out;
+  transition: color 400ms ease-in-out;
+}
+
+.undertitle:hover {
+  color: #ffffff00;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

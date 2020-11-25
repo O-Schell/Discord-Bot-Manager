@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css");
+
+$mainC: #f1f3f6;
+$secC: #9dabc0;
+
+body {
+  background: $mainC;
+}
+
+h1 {
+  padding: 10px 10px;
+  font-size: 3vw;
+  width: max-content;
+  font-family: "Montserrat";
+  color: #3f3f3f;
+}
+p1 {
+  font-size: 1.5vw;
+  width: max-content;
+  font-family: "Montserrat";
+  color: #3f3f3f;
+}
+
+.title {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.neumorphism {
+  border-radius: 30px;
+  padding: 10px 10px;
+  background: #dedede;
+  box-shadow: 20px 20px 60px #6f6f6f, -20px -20px 60px #ffffff;
+
+}
+
+.container {
+  width: 100%;
+  height: 97vh;
+  // border: 1px solid black;
+  @extend %center; 
+}
+
+%center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cta {
+  @extend %center; 
+  width: min-content;
+  height: min-content;
+  // border: 1px solid #fff;
+  background: $mainC;
+  border-radius: 20px;
+  box-shadow: 
+    inset 0 0 15px rgba(55, 84, 170,0),
+    inset 0 0 20px rgba(255, 255, 255,0),
+    7px 7px 15px rgba(55, 84, 170,.15),
+    -7px -7px 20px rgba(255, 255, 255,1),
+    inset 0px 0px 4px rgba(255, 255, 255,.2);
+  .icon {
+    width: min-content;
+    height: min-content;
+  }
+  .animate{
+    @extend .cta
+    &:hover {
+      box-shadow: 
+        inset 7px 7px 15px rgba(55, 84, 170,.15),
+        inset -7px -7px 20px rgba(255, 255, 255,1),
+        0px 0px 4px rgba(255, 255, 255,.2);
+    }
+    transition: box-shadow 399ms ease-in-out;
+  }
+}

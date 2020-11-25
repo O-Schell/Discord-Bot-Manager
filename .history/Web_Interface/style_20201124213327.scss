@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css");
+
+$mainC: #f1f3f6;
+$secC: #9dabc0;
+
+body {
+  background: $mainC;
+}
+
+.container{
+  margin: 30px;
+}
+
+.center-div {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.title {
+  margin: 10px;
+  padding: 10px 10px;
+  font-size: 3vw;
+  font-family: "Montserrat";
+  color: #3f3f3f;
+}
+
+.undertitle {
+  font-size: 1.5vw;
+  font-family: "Montserrat";
+  color: #3f3f3f;
+}
+
+.neumorphism {
+  margin: 30px;
+  border-radius: 50px;
+  background: #f1f3f6;
+  box-shadow: 25px 25px 50px #c1c2c5, -25px -25px 50px #ffffff;
+}

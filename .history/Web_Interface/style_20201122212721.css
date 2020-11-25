@@ -1,0 +1,15 @@
+body {
+    background-color: #dedede;
+  }
+  h1 {
+    font-size:5vw  ;
+    width: 20%;
+    border-radius: 50px;
+    background: #dedede;
+    box-shadow:  20px 20px 60px #bdbdbd, 
+                 -20px -20px 60px #ffffff;
+  }
+  p {
+    color: red;
+  }
+

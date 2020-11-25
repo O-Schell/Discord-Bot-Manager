@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css");
+
+$mainC: #2f3136;
+$secC: #8e9297;
+$thirdC: #ffffff00 ;
+
+body {
+  background: $mainC;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 3vw;
+  font-family: "Montserrat";
+  color: $secC;
+  border-bottom: solid 1.5px $secC ;
+  transition: color 400ms ease-out;
+
+}
+
+.title:hover {
+  color: $thirdC;
+  cursor: pointer;
+}
+
+.undertitle {
+  margin: 20px;
+  font-size: 1vw;
+  font-family: 'Courier New', Courier, monospace;
+  color: $secC;
+  
+  transition: color 400ms ease-in-out;
+
+}
+
+.undertitle:hover {
+  color: $thirdC;
+  cursor: pointer;
+}

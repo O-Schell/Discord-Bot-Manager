@@ -1,0 +1,46 @@
+@import url("https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css");
+
+$mainC: #2f3136;
+$secC: #8e9297;
+
+body {
+  background: $mainC;
+}
+
+.container{
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 3vw;
+  font-family: 'Courier New', Courier, monospace;
+  color: #8e9297;
+  transition: color 400ms ease-out;
+
+}
+
+.title:hover {
+  color: $mainC;
+  cursor: pointer;
+}
+
+.undertitle {
+  font-size: 1.5vw;
+  font-family: 'Courier New', Courier, monospace;
+  color: #8e9297;
+  transition: color 400ms ease-in-out;
+}
+
+.undertitle:hover {
+  color: $mainC;
+  cursor: pointer;
+}

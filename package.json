@@ -1,0 +1,23 @@
+{
+  "name": "Discord-Bot-Manager",
+  "version": "1.0.0",
+  "description": "You can't use it now... Maybe (surely) later...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-Schell/Discord-Bot-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-Schell/Discord-Bot-Manager/issues"
+  },
+  "homepage": "https://github.com/O-Schell/Discord-Bot-Manager#readme",
+  "dependencies": {
+    "capture-spawn": "^1.0.1"
+  }
+}
